@@ -1,0 +1,35 @@
+::-webkit-scrollbar
+{
+    width: 0px;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+textarea
+{
+    height: 15.4rem;
+    resize: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    outline: 2px solid white;
+}
+
+#container + div{
+    margin-top: 30px;
+}
+
+div h3 + p
+{
+    text-align: center;
+}
+
+p
+{
+    font-size: 1.1rem;
+}
